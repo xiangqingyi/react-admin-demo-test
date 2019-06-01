@@ -1,0 +1,19 @@
+apps:
+  - script : ./server.js
+    name   : 'WebTimeSheet'
+    # watch  : true
+    env    :
+      NODE_ENV: local
+    env_dev:
+      NODE_ENV: development      
+    env_production:
+      NODE_ENV: production
+  - script   : ./job/jobapp.js
+    name     : 'WebTimeSheetJob'
+    # watch  : true
+    env    :
+      NODE_ENV: local
+    env_dev:
+      NODE_ENV: development      
+    env_production:
+      NODE_ENV: production

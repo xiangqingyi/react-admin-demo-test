@@ -1,0 +1,50 @@
+{
+  "name": "admin_react_test",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "history": "^4.7.2",
+    "material-ui": "^0.20.2",
+    "prop-types": "^15.7.2",
+    "query-string": "^6.5.0",
+    "ra-core": "^2.9.1",
+    "ra-data-json-server": "^2.9.0",
+    "ra-data-simple-rest": "^2.9.0",
+    "ra-language-english": "^2.0.0",
+    "ra-language-french": "^2.8.5",
+    "react": "^16.8.6",
+    "react-admin": "^2.9.0",
+    "react-dom": "^16.8.6",
+    "react-redux": "^7.0.3",
+    "react-router-dom": "^4.2.0",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "3.0.0",
+    "recompose": "^0.30.0",
+    "redux": "^4.0.1",
+    "redux-form": "^8.2.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:8787/"
+}
