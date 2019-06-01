@@ -3,6 +3,7 @@
 
 .vscode
 client/build
+client/node_modules
 public/assets
 
 ### Node ###
