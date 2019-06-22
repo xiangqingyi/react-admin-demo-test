@@ -14,6 +14,7 @@ const BACKURI = '/login';
  * @param {*} res 
  * @param {*} next 
  */
+
 exports.authenticateMember = async function (req, res, next) {
     if (process.env.NODE_ENV == 'local') {
         req.session.timeSheetCivetUserInfo = {};
